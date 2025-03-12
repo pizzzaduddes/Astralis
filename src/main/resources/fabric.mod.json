@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "astralis",
+	"version": "${version}",
+	"name": "Astralis",
+	"description": "WIP",
+	"authors": [
+		"pizzaduddes"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/astralis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.astralismod.astralis.Astralis"
+		],
+		"fabric-datagen": [
+			"com.astralismod.astralis.AstralisDataGenerator"
+		],
+		"client": [
+			"com.astralismod.astralis.AstralisClient"
+		]
+	},
+	"mixins": [
+		"astralis.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/air"
+    }
+  },
+
+  "athena:loader": "athena:ctm",
+  "ctm_textures": {
+    "center": "astralis:block/ctm/rocket_steel/rocket_steel_center",
+    "empty": "astralis:block/ctm/rocket_steel/rocket_steel_empty",
+    "horizontal": "astralis:block/ctm/rocket_steel/rocket_steel_horizontal",
+    "particle": "astralis:block/ctm/rocket_steel/rocket_steel_particle",
+    "vertical": "astralis:block/ctm/rocket_steel/rocket_steel_vertical"
+  }
+}
