@@ -1,2 +1,4 @@
-// 1.21.1	2025-03-12T13:12:19.1983288	Astralis/Block Loot Tables
+// 1.21.1	2025-03-15T16:20:31.469662	Astralis/Block Loot Tables
 fd412b40e337bbd1accae6c1ef0d711e511d56aa data\astralis\loot_table\blocks\rocket_steel.json
+85ef93fde125c8ef498c75f838ee5abb5b236ccf data\astralis\loot_table\blocks\rocket_steel_tiles.json
+6da2b71ba4599bed9e74aa315d1347a744894db1 data\astralis\loot_table\blocks\rocket_steel_grates.json

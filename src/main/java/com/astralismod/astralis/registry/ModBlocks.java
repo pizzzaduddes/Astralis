@@ -13,6 +13,12 @@ public class ModBlocks {
     public static final Block ROCKET_STEEL = register("rocket_steel",
             new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
 
+    public static final Block ROCKET_STEEL_TILES = register("rocket_steel_tiles",
+            new Block(AbstractBlock.Settings.copy(ModBlocks.ROCKET_STEEL)));
+
+    public static final Block ROCKET_STEEL_GRATES = register("rocket_steel_grates",
+            new Block(AbstractBlock.Settings.copy(ModBlocks.ROCKET_STEEL)));
+
     public static <T extends Block> T register(String name, T block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Astralis.resLoc(name), block);

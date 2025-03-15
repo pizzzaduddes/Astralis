@@ -1,4 +1,10 @@
-// 1.21.1	2025-03-12T13:12:19.1993291	Astralis/Model Definitions
+// 1.21.1	2025-03-15T16:20:31.469662	Astralis/Model Definitions
 451fd61ef2b7c80a9000578d025ffce96a6cf575 assets\astralis\models\item\rocket_steel.json
 2a8dbb37b3a08f642b4c232fae13748504eba535 assets\astralis\blockstates\rocket_steel.json
+36e7c9f86d0ac1475920f6d2f1dbf7b07fda8b10 assets\astralis\models\item\rocket_steel_grates.json
+87ead69362de9cf7d5e1060d48dc1ed3755ee6f6 assets\astralis\models\item\rocket_steel_tiles.json
+e4fe959223e1d100a4b42ff4dc00347180506c64 assets\astralis\blockstates\rocket_steel_tiles.json
 a6f8e0a54820f704153259ceaca2dab0769f14b6 assets\astralis\models\block\rocket_steel.json
+b15b42cca086a3b37a5668febeabb960cee22b42 assets\astralis\models\block\rocket_steel_tiles.json
+c9d29613c2e6ea2ce8e70658441f07d8db42d0df assets\astralis\models\block\rocket_steel_grates.json
+27ea862355abbbeaf82fb0ba3ffe6b6bb4dad916 assets\astralis\blockstates\rocket_steel_grates.json
