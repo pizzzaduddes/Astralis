@@ -1,6 +1,8 @@
 package com.astralismod.astralis;
 
 import com.astralismod.astralis.registry.ModBlocks;
+import com.astralismod.astralis.registry.ModDimensions;
+import com.astralismod.astralis.registry.ModEntities;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -15,6 +17,8 @@ public class Astralis implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing: " + MOD_ID);
 		ModBlocks.registerModBlocks();
+		ModEntities.registerModEntities();
+		ModDimensions.registerModDimensions();
 	}
 
 	public static Identifier resLoc(String path) {
