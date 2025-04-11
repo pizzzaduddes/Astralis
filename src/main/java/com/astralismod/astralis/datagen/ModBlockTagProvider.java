@@ -18,11 +18,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ROCKET_STEEL)
                 .add(ModBlocks.ROCKET_STEEL_TILES)
-                .add(ModBlocks.ROCKET_STEEL_GRATES);
+                .add(ModBlocks.ROCKET_STEEL_GRATES)
+                .add(ModBlocks.MOON_STONE_BRICKS);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ROCKET_STEEL)
                 .add(ModBlocks.ROCKET_STEEL_TILES)
                 .add(ModBlocks.ROCKET_STEEL_GRATES);
+
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.MOON_SOIL);
     }
 }

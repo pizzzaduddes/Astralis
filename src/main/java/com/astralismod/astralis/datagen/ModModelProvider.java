@@ -16,6 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROCKET_STEEL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROCKET_STEEL_TILES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROCKET_STEEL_GRATES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOON_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOON_STONE_BRICKS);
     }
 
     @Override

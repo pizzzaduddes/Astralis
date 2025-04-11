@@ -16,5 +16,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ROCKET_STEEL);
         addDrop(ModBlocks.ROCKET_STEEL_TILES);
         addDrop(ModBlocks.ROCKET_STEEL_GRATES);
+        addDrop(ModBlocks.MOON_SOIL);
+        addDrop(ModBlocks.MOON_STONE_BRICKS);
     }
 }

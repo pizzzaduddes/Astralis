@@ -1,3 +1,4 @@
-// 1.21.1	2025-03-15T16:20:31.4686617	Astralis/Tags for minecraft:block
-72392508cebe575f919429d3c5e69523dd42f72a data\minecraft\tags\block\mineable\pickaxe.json
+// 1.21.1	2025-04-10T11:19:48.4839462	Astralis/Tags for minecraft:block
+4046d46254d263fba239aeb8f919a5ebc645bd11 data\minecraft\tags\block\mineable\shovel.json
+cd50a6fe6915793094b03fc7dd317346f3c1dad1 data\minecraft\tags\block\mineable\pickaxe.json
 72392508cebe575f919429d3c5e69523dd42f72a data\minecraft\tags\block\needs_iron_tool.json

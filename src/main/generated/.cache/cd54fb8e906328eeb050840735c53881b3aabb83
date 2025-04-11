@@ -1,4 +1,6 @@
-// 1.21.1	2025-03-15T16:20:31.469662	Astralis/Block Loot Tables
+// 1.21.1	2025-04-10T11:19:48.4882951	Astralis/Block Loot Tables
+53a000cc2e4f5a048a50d933236567e1039df636 data\astralis\loot_table\blocks\moon_stone_bricks.json
+328a0c6a190705d2643094574d6c3ad672e609dd data\astralis\loot_table\blocks\moon_soil.json
+6da2b71ba4599bed9e74aa315d1347a744894db1 data\astralis\loot_table\blocks\rocket_steel_grates.json
 fd412b40e337bbd1accae6c1ef0d711e511d56aa data\astralis\loot_table\blocks\rocket_steel.json
 85ef93fde125c8ef498c75f838ee5abb5b236ccf data\astralis\loot_table\blocks\rocket_steel_tiles.json
-6da2b71ba4599bed9e74aa315d1347a744894db1 data\astralis\loot_table\blocks\rocket_steel_grates.json

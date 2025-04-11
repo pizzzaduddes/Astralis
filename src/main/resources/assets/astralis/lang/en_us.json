@@ -1,5 +1,8 @@
 {
   "block.astralis.rocket_steel": "Rocket Steel",
   "block.astralis.rocket_steel_tiles": "Rocket Steel Tiles",
-  "block.astralis.rocket_steel_grates": "Rocket Steel Grates"
+  "block.astralis.rocket_steel_grates": "Rocket Steel Grates",
+
+  "block.astralis.moon_soil": "Moon Soil",
+  "block.astralis.moon_stone_bricks": "Moon Stone Bricks"
 }
