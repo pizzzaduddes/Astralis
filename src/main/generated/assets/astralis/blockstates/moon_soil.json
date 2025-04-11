@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      { "model": "astralis:block/moon_soil" },
+      { "model": "astralis:block/moon_soil", "y": 90 },
+      { "model": "astralis:block/moon_soil", "y": 180 },
+      { "model": "astralis:block/moon_soil", "y": 270 },
+      { "model": "astralis:block/moon_soil", "x": 90 },
+      { "model": "astralis:block/moon_soil", "x": 90, "y": 90 },
+      { "model": "astralis:block/moon_soil", "x": 90, "y": 180 },
+      { "model": "astralis:block/moon_soil", "x": 90, "y": 270 }
+    ]
+  }
+}
