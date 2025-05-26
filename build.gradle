@@ -12,6 +12,13 @@ base {
 
 repositories {
 	maven {url "https://maven.resourcefulbees.com/repository/terrarium/"}
+	maven {url = 'https://maven.blamejared.com/' }
+	maven {
+		name = 'BlameJared Maven (CrT / Bookshelf)'
+		url = 'https://maven.blamejared.com'
+	}
+
+
 }
 
 fabricApi {
@@ -28,7 +35,12 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
 	modImplementation "earth.terrarium.athena:athena-fabric-1.21:${athenaVersion}"
+	modImplementation("foundry.veil:veil-fabric-${project.minecraft_version}:${project.veil_version}") {
+		exclude group: "maven.modrinth"
+		exclude group: "me.fallenbreath"
+	}
 }
 
 processResources {

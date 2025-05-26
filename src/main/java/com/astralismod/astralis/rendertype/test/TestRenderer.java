@@ -1,35 +1,28 @@
-package com.astralismod.astralis.entity.renderer.planet.solar_system;
+package com.astralismod.astralis.rendertype.test;
 
 import com.astralismod.astralis.Astralis;
-import com.astralismod.astralis.entity.renderer.planet.Planet;
+import foundry.veil.Veil;
 import foundry.veil.api.client.render.rendertype.VeilRenderType;
-import net.minecraft.client.render.*;
-import net.minecraft.client.render.entity.EntityRenderer;
-import net.minecraft.client.render.entity.EntityRendererFactory;
+import net.minecraft.client.render.OverlayTexture;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.VertexConsumer;
+import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.Entity;
 import net.minecraft.util.Identifier;
 
-public class EarthEntityRenderer<T extends Entity & Planet> extends EntityRenderer<T> {
-    private static final Identifier PLANET_TEXTURE = Astralis.resLoc("textures/planet/solar_system/earth.png");
+public class TestRenderer {
 
-    public EarthEntityRenderer(EntityRendererFactory.Context ctx) {
-        super(ctx);
-    }
+    private static final Identifier RENDER_TYPE = Identifier.of(Astralis.MOD_ID, "test_rendertype");
 
-    private static final Identifier RENDER_TYPE = Identifier.of(Astralis.MOD_ID, "test");
-
-    @Override
-    public void render(T entity, float yaw, float tickDelta, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light) {
-
-    RenderLayer renderType = VeilRenderType.get(RENDER_TYPE);
+    public static void render(MatrixStack matrixStack, VertexConsumerProvider bufferSource, int light) {
+        RenderLayer renderType = VeilRenderType.get(RENDER_TYPE, "test_texture.png");
         if (renderType == null) {
             // There was an error loading the render type
             return;
         }
 
-        VertexConsumer builder = vertexConsumers.getBuffer(renderType);
-        MatrixStack.Entry pose = matrices.peek();
+        VertexConsumer builder = bufferSource.getBuffer(renderType);
+        MatrixStack.Entry pose = matrixStack.peek();
 
         drawCube(builder, pose, light);
     }
@@ -63,15 +56,5 @@ public class EarthEntityRenderer<T extends Entity & Planet> extends EntityRender
         builder.vertex(pose, x4, y4, z4).color(1.0F, 1.0F, 1.0F, 1.0F)
                 .texture(u1, v2).light(light).normal(1, 1, 1)
                 .overlay(OverlayTexture.DEFAULT_UV);
-    }
-
-    @Override
-    public Identifier getTexture(T entity) {
-        return PLANET_TEXTURE;
-    }
-
-    @Override
-    public boolean shouldRender(T entity, Frustum frustum, double x, double y, double z) {
-        return true;
     }
 }
